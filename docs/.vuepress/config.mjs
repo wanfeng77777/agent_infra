@@ -1,7 +1,7 @@
-const { viteBundler } = require('@vuepress/bundler-vite')
-const { defaultTheme } = require('@vuepress/theme-default')
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 
-module.exports = {
+export default {
   title: 'Agent学习资料',
   description: 'Agent 开发面经整理，涵盖基础概念、架构范式、开发框架、MCP/RAG等',
   base: '/agent_infra/',
