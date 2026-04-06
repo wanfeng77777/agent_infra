@@ -1,0 +1,14 @@
+{
+  "name": "agent-interview",
+  "version": "1.0.0",
+  "description": "Agent 开发面经整理",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "vuepress build docs && gh-pages -d docs/.vuepress/dist"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0",
+    "@vuepress/theme-default": "^2.0.0"
+  }
+}
