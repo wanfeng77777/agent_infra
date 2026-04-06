@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent学习资料</title>
+  <meta name="description" content="Agent 开发面经整理，涵盖基础概念、架构范式、开发框架、MCP/RAG等">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #4F46E5;
+      --sidebar-nav-pagelink-color: #374151;
+      --sidebar-nav-pagelink-color--active: #4F46E5;
+    }
+    .sidebar-toggle {
+      background: #4F46E5;
+    }
+    .markdown-section blockquote {
+      border-left-color: #4F46E5;
+      background: #EEF2FF;
+      color: #3730A3;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      name: 'Agent学习资料',
+      repo: 'https://github.com/wanfeng77777/agent_infra',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        placeholder: '搜索',
+        noData: '没有结果',
+        depth: 3
+      },
+      pagination: {
+        previousText: '上一篇',
+        nextText: '下一篇',
+        crossChapter: true
+      },
+      markdown: {
+        breaks: true
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
