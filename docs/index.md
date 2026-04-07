@@ -1,6 +1,5 @@
 ---
 home: true
-layout: home
 heroText: Agent学习资料
 tagline: 2026-04 | 全量问题完善 + 工业级落地补充 + 面试加分指南
 actionText: 开始阅读 →
