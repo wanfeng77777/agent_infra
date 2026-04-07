@@ -12,6 +12,6 @@ export default {
       { text: '首页', link: '/' },
       { text: 'GitHub', link: 'https://github.com/wanfeng77777/agent_infra' }
     ],
-    sidebar: 'auto'
+    sidebar: false
   })
 }
